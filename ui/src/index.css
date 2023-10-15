@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .function-buttons{
+        @apply rounded-full border-[1px] border-white text-white px-4 py-2
+        hover:bg-white hover:text-black font-medium whitespace-nowrap;
+    }
+
+    .interact-button{
+        @apply px-3 py-2 rounded-xl text-white font-medium hover:scale-110 transition-all;
+    }
+
+    .form-input{
+        @apply rounded-xl border-[1px] border-slate-900 px-2 py-1;
+    }
+}
